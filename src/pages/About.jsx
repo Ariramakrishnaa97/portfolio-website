@@ -24,6 +24,21 @@ export default function About(){
             ))}
           </div>
         </div>
+        
+        <div className="mt-8">
+          <h3 className="text-lg font-semibold mb-4 text-gray-100">Education Details</h3>
+          <div className="space-y-4">
+            <motion.div initial={{y:8,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5}} viewport={{once:true}} className="p-4 bg-gray-800 rounded-lg">
+              <h4 className="font-semibold text-gray-100">Bharathiyar College of Engineering and Technology</h4>
+              <p className="text-gray-300 text-sm">B.Tech, Mechanical Engineering | Jul 2015 – Apr 2019 | Grade: 68%</p>
+            </motion.div>
+
+            <motion.div initial={{y:8,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.08,duration:0.5}} viewport={{once:true}} className="p-4 bg-gray-800 rounded-lg">
+              <h4 className="font-semibold text-gray-100">Annamalai University</h4>
+              <p className="text-gray-300 text-sm">Diploma of Education, Industrial Safety Technology/Technician | 2020 | Grade: 79.40%</p>
+            </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   )
