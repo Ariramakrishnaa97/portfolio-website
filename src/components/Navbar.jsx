@@ -13,7 +13,7 @@ export default function Navbar(){
   return (
     <header className="w-full sticky top-0 z-50 bg-white/70 glass border-b backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
-        <a className="font-semibold text-xl text-accent hover:opacity-90" href="#home">Ariramakrishnaa.A</a>
+        <a className="font-semibold text-xl text-accent hover:opacity-90" href="#home">Ariramakrishnaa's Portfolio</a>
 
         <nav className="hidden md:flex gap-6 items-center">
           {links.map(l=> (
