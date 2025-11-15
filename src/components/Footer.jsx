@@ -15,7 +15,7 @@ export default function Footer(){
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div>
             <h3 className="font-semibold text-gray-100">Ariramakrishnaa.A</h3>
-            <p className="text-sm text-gray-400 mt-1">Full-Stack Developer & UI Designer</p>
+            <p className="text-sm text-gray-400 mt-1">Infrastructure Support Engineer</p>
           </div>
           <div className="flex gap-6 mt-4 md:mt-0">
             {links.map(l=> (
