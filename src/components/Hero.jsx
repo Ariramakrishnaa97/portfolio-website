@@ -22,7 +22,7 @@ export default function Hero(){
           Infrastructure Support Engineer
         </motion.h1>
         <motion.p variants={item} className="text-lg text-gray-300 mb-8 leading-relaxed">
-          Infrastructure Support Engineer at Cognizant Technology Solutions with expertise in middleware, cloud platforms, and enterprise systems management.
+          IT professional with 2.6 years of experience in infrastructure support and middleware administration, specializing in platforms such as JBoss, Tomcat, Apache, and IIS. Skilled in managing enterprise applications, troubleshooting complex issues, and ensuring system reliability. Experienced in hosting and managing solutions on Amazon S3, with a focus on secure storage and efficient deployment. Proficient in implementing and managing Digicert SSL certificates to ensure secure communication and compliance. Adept at resolving technical challenges, streamlining operations, and delivering effective support to enhance business performance.
         </motion.p>
         <motion.div variants={item} className="flex flex-col md:flex-row items-center justify-center gap-4">
           <motion.a whileHover={{scale:1.05}} whileTap={{scale:0.98}} href="#projects" className="px-6 py-3 rounded-lg bg-accent text-white font-medium shadow-lg hover:shadow-xl transition">
