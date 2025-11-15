@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 export default function About(){
-  const skills = ['React', 'JavaScript', 'Tailwind CSS', 'Framer Motion', 'Responsive Design', 'Accessibility']
+  const skills = ['DigiCert SSL Management', 'Jboss & Apache Tomcat', 'IIS', 'Service Now', 'Middleware Technologies', 'GitHub', 'AWS S3 Hosting']
 
   return (
     <section id="about" className="py-16">
@@ -11,7 +11,7 @@ export default function About(){
           About Me
         </motion.h2>
         <motion.p initial={{y:10,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.1,duration:0.5}} viewport={{once:true}} className="text-gray-600 mb-6 leading-relaxed">
-          I'm a developer focused on creating modern, accessible interfaces. I love working with React, Tailwind CSS, and Framer Motion to bring ideas to life with smooth interactions and delightful UX.
+          Highly inspired and committed person with certified engineering skills, problem-solving, creativity, and strong technical knowledge. I am looking forward to teamwork opportunities as well as handling different projects for your reputed company.
         </motion.p>
         
         <div>
