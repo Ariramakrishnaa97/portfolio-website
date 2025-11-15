@@ -5,10 +5,10 @@ export default function Contact(){
   return (
     <section id="contact" className="py-16">
       <div className="max-w-3xl mx-auto">
-        <motion.h2 initial={{y:10,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5}} viewport={{once:true}} className="text-2xl font-bold mb-4 text-gray-900">
+        <motion.h2 initial={{y:10,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5}} viewport={{once:true}} className="text-2xl font-bold mb-4 text-gray-100">
           Let's Work Together
         </motion.h2>
-        <motion.p initial={{y:10,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.1,duration:0.5}} viewport={{once:true}} className="text-gray-600 mb-8 leading-relaxed">
+        <motion.p initial={{y:10,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.1,duration:0.5}} viewport={{once:true}} className="text-gray-300 mb-8 leading-relaxed">
           I'm available for freelance projects and full-time roles. Feel free to reach out — I'd love to chat about your next project.
         </motion.p>
 
