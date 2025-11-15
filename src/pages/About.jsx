@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 export default function About(){
-  const skills = ['DigiCert SSL Management', 'Jboss & Apache Tomcat', 'IIS', 'Service Now', 'Cognizant Technology Solutions', 'GitHub', 'AWS S3 Hosting']
+  const skills = ['Linux Server', 'Windows Server', 'Troubleshooting', 'Service Now', 'ITSM', 'Solution Architect', 'Lambda, EC2', 'Terraform Basics']
 
   return (
     <section id="about" className="py-16">
