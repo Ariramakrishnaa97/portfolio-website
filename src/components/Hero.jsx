@@ -22,7 +22,7 @@ export default function Hero(){
           Infrastructure Support Engineer
         </motion.h1>
         <motion.p variants={item} className="text-lg text-gray-600 mb-8 leading-relaxed">
-          Infrastructure Support Engineer at Middleware Technologies with expertise in middleware, cloud platforms, and enterprise systems management.
+          Infrastructure Support Engineer at Cognizant Technology Solutions with expertise in middleware, cloud platforms, and enterprise systems management.
         </motion.p>
         <motion.div variants={item} className="flex flex-col md:flex-row items-center justify-center gap-4">
           <motion.a whileHover={{scale:1.05}} whileTap={{scale:0.98}} href="#projects" className="px-6 py-3 rounded-lg bg-accent text-white font-medium shadow-lg hover:shadow-xl transition">
