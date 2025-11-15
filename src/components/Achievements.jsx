@@ -10,9 +10,29 @@ export default function Achievements(){
       description: 'Outstanding work during ARPEGES 3 – PROD to PRE-PROD Data Refresh activity (Oct 2025)'
     },
     {
-      title: 'Certified AWS Solution Architect',
-      date: '',
-      description: ''
+      title: 'AWS Certified Solutions Architect – Associate',
+      date: 'Nov 2025 - Nov 2028',
+      description: 'Issued Nov 2025, Expires Nov 2028'
+    },
+    {
+      title: 'Lean Six Sigma White Belt Certification',
+      date: 'Nov 2025',
+      description: 'Aveta Business Institute'
+    },
+    {
+      title: 'Participated in Vibe Code Hackathon',
+      date: 'Sep 2025',
+      description: 'Windsurf at Cognizant'
+    },
+    {
+      title: 'Operating with SAP Cloud ALM',
+      date: 'Nov 2024',
+      description: 'Record of Achievement'
+    },
+    {
+      title: 'Overviewing SAP S/4HANA for Enterprise Contract Management',
+      date: 'Nov 2024',
+      description: 'Record of Achievement'
     }
   ]
 
