@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import Achievements from './components/Achievements'
 import Footer from './components/Footer'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -14,6 +15,7 @@ export default function App(){
         <Hero />
         <Projects />
         <About />
+        <Achievements />
         <Contact />
       </main>
       <Footer />
