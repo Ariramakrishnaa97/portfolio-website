@@ -1,0 +1,6 @@
+This is a placeholder for your resume/CV.
+Replace this file with your actual resume named `resume.pdf` in the `public/` folder so the site can link to `/resume.pdf`.
+
+To replace:
+1. Copy your `resume.pdf` into d:\My Website\public\resume.pdf
+2. Update any links in `src/pages/Contact.jsx` or footer if necessary.

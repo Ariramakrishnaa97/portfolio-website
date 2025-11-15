@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" rx="16" fill="#eef2ff"/>
+  <g transform="translate(80,80)">
+    <rect width="440" height="240" rx="12" fill="#7c3aed" opacity="0.08" />
+    <rect x="480" y="0" width="440" height="240" rx="12" fill="#06b6d4" opacity="0.06" />
+    <rect y="280" width="840" height="360" rx="12" fill="#111827" opacity="0.04" />
+    <text x="20" y="40" font-family="Inter, sans-serif" font-size="28" fill="#1f2937">Project preview</text>
+  </g>
+</svg>
