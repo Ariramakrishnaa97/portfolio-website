@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../motionVariants'
 
 export default function Footer(){
   const links = [
@@ -8,7 +10,7 @@ export default function Footer(){
   ]
 
   return (
-    <footer className="border-t mt-16 py-12 bg-transparent">
+    <motion.footer variants={fadeIn} initial="hidden" whileInView="show" viewport={{ once: true }} className="border-t mt-16 py-12 bg-transparent">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div>
@@ -26,6 +28,6 @@ export default function Footer(){
           <p className="mt-1">Ready to deploy on Netlify. See README for instructions.</p>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   )
 }

@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 export default function App(){
   return (
-    <div className="min-h-screen site-bg text-gray-100">
+    <div className="min-h-screen site-bg tech-grid text-gray-100">
       <Navbar />
       <main className="max-w-6xl mx-auto px-6 py-8">
         <Hero />

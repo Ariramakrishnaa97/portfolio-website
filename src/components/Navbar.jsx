@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../motionVariants'
 
 const links = [
   { name: 'Home', href: '#home' },
@@ -11,21 +13,21 @@ export default function Navbar(){
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="w-full sticky top-0 z-50 bg-white/70 glass border-b backdrop-blur-sm">
+    <motion.header variants={fadeIn} initial="hidden" animate="show" className="w-full sticky top-0 z-50 bg-white/70 glass border-b backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
-        <a className="font-semibold text-xl text-accent hover:opacity-90" href="#home">Ariramakrishnaa's Portfolio</a>
+        <motion.a variants={fadeIn} whileHover="hover" whileTap="tap" className="font-semibold text-xl text-accent hover:opacity-90" href="#home">Ariramakrishnaa's Portfolio</motion.a>
 
         <nav className="hidden md:flex gap-6 items-center">
           {links.map(l=> (
-            <a key={l.name} href={l.href} className="text-sm text-gray-700 hover:text-accent transition focus:outline-none focus:ring-2 focus:ring-accent/30 rounded">{l.name}</a>
+            <motion.a key={l.name} variants={fadeIn} whileHover="hover" href={l.href} className="text-sm text-gray-700 hover:text-accent transition focus:outline-none focus:ring-2 focus:ring-accent/30 rounded">{l.name}</motion.a>
           ))}
-          <a href="#contact" className="ml-2 text-sm px-3 py-2 border rounded-md text-accent">Hire me</a>
+          <motion.a href="#contact" variants={fadeIn} whileHover="hover" className="ml-2 text-sm px-3 py-2 border rounded-md text-accent">Hire me</motion.a>
         </nav>
 
         <div className="md:hidden">
-          <button onClick={()=>setOpen(v=>!v)} aria-expanded={open} aria-controls="mobile-menu" className="p-2 rounded-md bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-accent/40">
+          <motion.button onClick={()=>setOpen(v=>!v)} aria-expanded={open} aria-controls="mobile-menu" className="p-2 rounded-md bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-accent/40" whileHover="hover" whileTap="tap">
             {open ? 'Close' : 'Menu'}
-          </button>
+          </motion.button>
         </div>
       </div>
 
@@ -39,6 +41,6 @@ export default function Navbar(){
           </div>
         </div>
       )}
-    </header>
+    </motion.header>
   )
 }

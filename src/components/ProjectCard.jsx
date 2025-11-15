@@ -1,9 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { fadeUp, subtleHover } from '../motionVariants'
 
 export default function ProjectCard({project}){
   return (
-    <motion.div whileHover={{y:-4}} transition={{type:'spring',stiffness:300,damping:20}} className="p-6 card-dark rounded-lg shadow hover:shadow-xl transition">
+    <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.15 }} whileHover="hover" whileTap="tap" className="p-6 card-dark rounded-lg shadow hover:shadow-xl transition">
       {project.image && (
         <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-md mb-4" />
       )}
@@ -15,7 +16,7 @@ export default function ProjectCard({project}){
         ))}
       </div>
       <div className="flex items-center gap-4">
-        <motion.a whileHover={{x:4}} href={project.href} className="inline-flex text-sm font-medium text-accent hover:text-primary transition">
+        <motion.a variants={subtleHover} href={project.href} className="inline-flex text-sm font-medium text-accent hover:text-primary transition">
           View project <span className="ml-2">→</span>
         </motion.a>
         {project.repo && (
